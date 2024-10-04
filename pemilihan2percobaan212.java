@@ -8,6 +8,8 @@ public class pemilihan2percobaan212 {
         double diskon;
         int harga ;
         double total_bayar;
+        int pembayaran;
+        double total;
 
         System.out.println("-------------------------");
         System.out.println("===== MENU KEFE JTI =====");
@@ -65,12 +67,28 @@ public class pemilihan2percobaan212 {
         } else {
             System.out.println("Masukkan menu dengan benar.");
             return;
-        }
+        } total_bayar = harga;
+        System.out.println("Total bayar = " + total_bayar);
         }
         else {
             System.out.println("Member tidak valid.");
+            total_bayar = 0;
         }
         System.out.println("----------------------------------");
+
+        System.out.println("Masukkan angka pilihan cara membayar");
+        System.out.println("1. QRIS");
+        System.out.println("2. Selain QRIS");
+        pembayaran = input12.nextInt();
+
+        if (pembayaran == 1) {
+            total = (total_bayar - 1000);
+        } else {
+            total = total_bayar;
+        }
+         System.out.println("Total pembayaran anda adalah = " + total);
+
+
 
 
 
