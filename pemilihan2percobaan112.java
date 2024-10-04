@@ -7,7 +7,10 @@ public class pemilihan2percobaan112 {
         System.out.println("Masukkan tahun untuk di cek :");
         int tahun = input12.nextInt();
         if ((tahun % 4) == 0) {
-            if ((tahun % 100) != 0) {
+            if ((tahun % 400)==0) {
+                System.out.println("Tahun kabisat");
+            }
+            else if ((tahun % 100) != 0) {
                 System.out.println("Tahun kabisat");
             }
             else {
@@ -18,5 +21,5 @@ public class pemilihan2percobaan112 {
      {
         System.out.println("Bukan tahun kabisat");
      }
-    }
+        }
 }
