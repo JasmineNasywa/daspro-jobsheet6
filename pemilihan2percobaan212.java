@@ -16,7 +16,7 @@ public class pemilihan2percobaan212 {
         System.out.println("-------------------------");
         System.out.println("1. Ricebowl");
         System.out.println("2. Ice Tea");
-        System.out.println("Paket Bunding (Ricebowl + Ice Tea)");
+        System.out.println("3. Paket Bunding (Ricebowl + Ice Tea)");
         System.out.println("----------------------------------");
         System.out.println("Masukkan angka dari menu yang di pilih = ");
         pilihan_menu = input12.nextInt();
